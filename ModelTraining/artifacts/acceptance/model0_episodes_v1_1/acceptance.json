@@ -1,0 +1,88 @@
+{
+  "schema_version": "model0.dataset_acceptance.v1",
+  "checked_at": "2026-11-17T05:50:08.861900+00:00",
+  "dataset_path": "/home/awa_0112333/project/data/model0_episodes_v1_1",
+  "dataset_manifest_sha256": "bcc2422e603da02a1704e70e2960d1de5d67ab74d8d3a140c462353f3b5f7ead",
+  "status": "canonical_data_accepted",
+  "accepted_for_training": true,
+  "training_ready": false,
+  "scope": "Canonical real episode files only; independent capacity/interface/budget gates remain required",
+  "allowed_record_kind": "episode",
+  "compact_candidate_accepted": false,
+  "compact_candidate_training_eligible": false,
+  "record_counts": {
+    "train": 1210,
+    "dev": 244,
+    "quarantine": 1012
+  },
+  "file_count": 3702,
+  "eligible_canonical_records": 1454,
+  "scale_counts": {
+    "A": 267,
+    "B": 3152,
+    "C": 67798
+  },
+  "resolved_findings": [
+    "SCALE-001"
+  ],
+  "independent_structural_checks": "passed",
+  "checkpoint_feedback_replay": "passed",
+  "producer_validator_rerun": "passed",
+  "producer_mutation_tests": 15,
+  "scale_baseline_gate_flips": [],
+  "B_regression": {
+    "outcome": "rejected",
+    "error": 0.7732148798608435,
+    "baseline_error": 0.7732148798608435,
+    "trend_match": 0.6764705882352942,
+    "constant_ok": true,
+    "variable_features": 34
+  },
+  "remaining_training_blockers": [
+    {
+      "id": "CAPACITY-001",
+      "description": "Canonical A forecast_next is 95514 tokens > 65536; compact proposal needs reviewed input policy and runtime adoption"
+    },
+    {
+      "id": "PROTOCOL-001",
+      "description": "Compact candidate is lossy and runtime adoption unverified; candidates remain ineligible"
+    }
+  ],
+  "local_compact_findings": {
+    "capacity_passed": true,
+    "history_error_bound_passed": true,
+    "max_rounded_statistic_mean_error_in_scale_units": {
+      "current": 0.5910591918836746,
+      "recent_stable_reference": 0.5817809756257393,
+      "training_reference": 0.43944882352766496
+    },
+    "diagnostic_baseline_gate_flips": {},
+    "does_not_prove_model_quality": true
+  },
+  "evidence": [
+    {
+      "path": "/home/awa_0112333/project/ModelTraining/artifacts/acceptance/model0_episodes_v1_1/independent-checks.json",
+      "sha256": "f1253d22023bce0f8fbbf267ca01e7209b497de4babe2462c37e8f080f1a81c4"
+    },
+    {
+      "path": "/home/awa_0112333/project/ModelTraining/artifacts/acceptance/model0_episodes_v1_1/prediction-checks.json",
+      "sha256": "42bf51f77768561ea3cbd40cc16a8ea3e558f55495d7856a4eafcae863171f4b"
+    },
+    {
+      "path": "/home/awa_0112333/project/ModelTraining/artifacts/acceptance/model0_episodes_v1_1/producer-validator-rerun.json",
+      "sha256": "4bbdc53ddc2d2d2bc1a2017e4c80cf55b5dd755a7b262f21ef9c88f9611c0db6"
+    },
+    {
+      "path": "/home/awa_0112333/project/ModelTraining/artifacts/acceptance/model0_episodes_v1_1/producer-tests-rerun.json",
+      "sha256": "b40d587256d046513c364062cc0097279b47366c4d969437519b3c7a1608a31c"
+    },
+    {
+      "path": "/home/awa_0112333/project/ModelTraining/artifacts/acceptance/model0_episodes_v1_1/compact-checks.json",
+      "sha256": "b2428b92259532c39d88dbf4e45872d8d6e3f1ed1172032ac3790f39a42c92e0"
+    }
+  ],
+  "sources_modified": false,
+  "paid_calls": 0,
+  "user_decision": "Complete data acceptance only; do not change input protocol in this turn",
+  "input_protocol_change_deferred_by_user": true
+}

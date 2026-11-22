@@ -1,0 +1,11 @@
+{
+  "version": "development.v1",
+  "mode": "development",
+  "capacity": 4,
+  "training_concurrency": 1,
+  "horizon": 32,
+  "short_batches": 2,
+  "long_batches": 8,
+  "label_seed": 42,
+  "label_fraction": 0.25
+}

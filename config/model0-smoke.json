@@ -1,0 +1,14 @@
+{
+  "base_url": "https://pytrio.com/api/openai/v1",
+  "model": "trio://run_ogvplibsgt3s/sampler_weights/trial-final",
+  "credential_env": "PYTRIO_API_KEY",
+  "message_version": "model0.messages.v3",
+  "contract_sha256": "1ccc21034579371b124bbec39b30d04cfae7bd3af8ae11391d624d4b5d166abd",
+  "scenario": "C",
+  "episode_id": "m0v1-C-g-64cbe5e8e3331508-000032-decide-natural",
+  "task": "decide",
+  "max_calls": 1,
+  "max_prompt_tokens": 3840,
+  "max_output_tokens": 256,
+  "deadline_seconds": 120
+}

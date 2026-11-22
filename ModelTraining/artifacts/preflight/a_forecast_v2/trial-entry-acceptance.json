@@ -1,0 +1,18 @@
+{
+  "revision": "trial-entry.v2",
+  "user_approved": true,
+  "approved_at": "2026-11-17T13:07:24.173871+00:00",
+  "service_call_passed": true,
+  "sequence_lengths_passed": true,
+  "model_output_contract_passed": false,
+  "formal_training_allowed": false,
+  "manifest_sha256": "bcc2422e603da02a1704e70e2960d1de5d67ab74d8d3a140c462353f3b5f7ead",
+  "contract_sha256": "1ccc21034579371b124bbec39b30d04cfae7bd3af8ae11391d624d4b5d166abd",
+  "response_sha256": "21e6d94440707ecd02aa910a9a41b2c66b4904969275f7f4e4193a3ebea42b9f",
+  "diagnosis_sha256": "810b294355154e106eb6970d57a91cbdfc291da93a9059cb78aa905136f19bd6",
+  "decoder_sha256": "03eaf3e5e965502d9952e1e9e70d8e693707a8dbbe7cd53e9125ade8ce3f1c78",
+  "remaining_before_trial": [
+    "Complete 244-dev baseline",
+    "Verify actual LoRA setup and executable trial limits"
+  ]
+}

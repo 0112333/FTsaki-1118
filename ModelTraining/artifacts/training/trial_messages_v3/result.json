@@ -1,0 +1,375 @@
+{
+  "status": "trained_reload_and_dev_pending",
+  "training_started": true,
+  "updates": [
+    {
+      "step": 1,
+      "episode_id": "m0v1-A-g-7d154cc4b36676d9-000016-decide-natural",
+      "metrics": {
+        "loss_sum": 0.1537231206893921,
+        "loss_mean": 0.007320148604256766,
+        "token_count": 21.0
+      },
+      "optim": {
+        "metrics": {
+          "grad_norm": 0.2751876750337093,
+          "clip_scale": 1.0,
+          "learning_rate": 5e-05
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-01",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    },
+    {
+      "step": 2,
+      "episode_id": "m0v1-A-g-7d154cc4b36676d9-000032-forecast_next-natural",
+      "metrics": {
+        "loss_sum": 1.5050908327102661,
+        "loss_mean": 3.8790001100751685e-05,
+        "token_count": 38801.0
+      },
+      "optim": {
+        "metrics": {
+          "grad_norm": 2.0127921119780714e-06,
+          "clip_scale": 1.0,
+          "learning_rate": 5e-05
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-02",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    },
+    {
+      "step": 3,
+      "episode_id": "m0v1-B-g-77a7f15a644eb4ea-000008-decide-natural",
+      "metrics": {
+        "loss_sum": 0.04849224537611008,
+        "loss_mean": 0.0023091545417195276,
+        "token_count": 21.0
+      },
+      "optim": {
+        "metrics": {
+          "grad_norm": 0.052292848855062087,
+          "clip_scale": 1.0,
+          "learning_rate": 5e-05
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-03",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    },
+    {
+      "step": 4,
+      "episode_id": "m0v1-B-g-77a7f15a644eb4ea-000008-forecast_next-natural",
+      "metrics": {
+        "loss_sum": 1.6478350460529327,
+        "loss_mean": 8.066156180199387e-05,
+        "token_count": 20429.0
+      },
+      "optim": {
+        "metrics": {
+          "clip_scale": 1.0,
+          "learning_rate": 5e-05,
+          "grad_norm": 5.232070001437757e-06
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-04",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    },
+    {
+      "step": 5,
+      "episode_id": "m0v1-C-g-0094822e6dc65332-000032-decide-natural",
+      "metrics": {
+        "loss_sum": 0.0028834568802267313,
+        "loss_mean": 0.0001373074704869872,
+        "token_count": 21.0
+      },
+      "optim": {
+        "metrics": {
+          "learning_rate": 5e-05,
+          "grad_norm": 0.009444205079528725,
+          "clip_scale": 1.0
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-05",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    },
+    {
+      "step": 6,
+      "episode_id": "m0v1-C-g-0094822e6dc65332-000032-forecast_next-natural",
+      "metrics": {
+        "loss_sum": 0.5238627549260855,
+        "loss_mean": 9.927283587759816e-05,
+        "token_count": 5277.0
+      },
+      "optim": {
+        "metrics": {
+          "clip_scale": 1.0,
+          "learning_rate": 5e-05,
+          "grad_norm": 2.0412969654035844e-05
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-06",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    },
+    {
+      "step": 7,
+      "episode_id": "m0v1-A-g-7d154cc4b36676d9-000064-decide-control",
+      "metrics": {
+        "loss_sum": 0.2893523573875427,
+        "loss_mean": 0.012056348224480947,
+        "token_count": 24.0
+      },
+      "optim": {
+        "metrics": {
+          "grad_norm": 0.35860572979741134,
+          "clip_scale": 1.0,
+          "learning_rate": 5e-05
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-07",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    },
+    {
+      "step": 8,
+      "episode_id": "m0v1-B-g-77a7f15a644eb4ea-000032-decide-control",
+      "metrics": {
+        "loss_sum": 0.1504882276058197,
+        "loss_mean": 0.006270342816909154,
+        "token_count": 24.0
+      },
+      "optim": {
+        "metrics": {
+          "grad_norm": 0.08248129236518188,
+          "clip_scale": 1.0,
+          "learning_rate": 5e-05
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-08",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    },
+    {
+      "step": 9,
+      "episode_id": "m0v1-B-g-77a7f15a644eb4ea-000016-forecast_next-natural",
+      "metrics": {
+        "loss_sum": 1.6554706692695618,
+        "loss_mean": 8.108692541484922e-05,
+        "token_count": 20416.0
+      },
+      "optim": {
+        "metrics": {
+          "grad_norm": 4.507361110699564e-06,
+          "clip_scale": 1.0,
+          "learning_rate": 5e-05
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-09",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    },
+    {
+      "step": 10,
+      "episode_id": "m0v1-C-g-0094822e6dc65332-000128-decide-control",
+      "metrics": {
+        "loss_sum": 0.12534260749816895,
+        "loss_mean": 0.005222608645757039,
+        "token_count": 24.0
+      },
+      "optim": {
+        "metrics": {
+          "clip_scale": 1.0,
+          "learning_rate": 5e-05,
+          "grad_norm": 0.08794588156335359
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-10",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    },
+    {
+      "step": 11,
+      "episode_id": "m0v1-C-g-0094822e6dc65332-000064-forecast_next-natural",
+      "metrics": {
+        "loss_sum": 0.5201633744873106,
+        "loss_mean": 9.855312135038095e-05,
+        "token_count": 5278.0
+      },
+      "optim": {
+        "metrics": {
+          "grad_norm": 1.8973886285365803e-05,
+          "clip_scale": 1.0,
+          "learning_rate": 5e-05
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-11",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    },
+    {
+      "step": 12,
+      "episode_id": "m0v1-A-g-7d154cc4b36676d9-000064-decide-shift",
+      "metrics": {
+        "loss_sum": 0.29615318775177,
+        "loss_mean": 0.012876225554424784,
+        "token_count": 23.0
+      },
+      "optim": {
+        "metrics": {
+          "grad_norm": 0.8064424990265379,
+          "clip_scale": 1.0,
+          "learning_rate": 5e-05
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-12",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    },
+    {
+      "step": 13,
+      "episode_id": "m0v1-B-g-77a7f15a644eb4ea-000032-decide-shift",
+      "metrics": {
+        "loss_sum": 0.26405227184295654,
+        "loss_mean": 0.011480533558389416,
+        "token_count": 23.0
+      },
+      "optim": {
+        "metrics": {
+          "clip_scale": 1.0,
+          "learning_rate": 5e-05,
+          "grad_norm": 0.1533902108482362
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-13",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    },
+    {
+      "step": 14,
+      "episode_id": "m0v1-B-g-77a7f15a644eb4ea-000024-forecast_next-natural",
+      "metrics": {
+        "loss_sum": 1.6623687744140625,
+        "loss_mean": 8.15406275770865e-05,
+        "token_count": 20387.0
+      },
+      "optim": {
+        "metrics": {
+          "learning_rate": 5e-05,
+          "grad_norm": 4.254589231205758e-06,
+          "clip_scale": 1.0
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-14",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    },
+    {
+      "step": 15,
+      "episode_id": "m0v1-C-g-0094822e6dc65332-000128-decide-shift",
+      "metrics": {
+        "loss_sum": 0.10496993362903595,
+        "loss_mean": 0.004563910157784172,
+        "token_count": 23.0
+      },
+      "optim": {
+        "metrics": {
+          "grad_norm": 0.07718648204550073,
+          "clip_scale": 1.0,
+          "learning_rate": 5e-05
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-15",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    },
+    {
+      "step": 16,
+      "episode_id": "m0v1-C-g-0094822e6dc65332-000096-forecast_next-natural",
+      "metrics": {
+        "loss_sum": 0.530241760192439,
+        "loss_mean": 0.00010057696513513637,
+        "token_count": 5272.0
+      },
+      "optim": {
+        "metrics": {
+          "grad_norm": 1.7133521685177516e-05,
+          "clip_scale": 1.0,
+          "learning_rate": 5e-05
+        }
+      },
+      "checkpoint": {
+        "path": "trio://run_ogvplibsgt3s/weights/step-16",
+        "model": "Qwen/Qwen3.8-27B",
+        "size": 1544407195,
+        "type": "save-checkpoint"
+      }
+    }
+  ],
+  "forward_backward_calls": 16,
+  "sequence_tokens_submitted": 310309,
+  "swanlab_run_id": "ahoik0d6",
+  "training_run_id": "run_ogvplibsgt3s",
+  "initial_checkpoint": {
+    "path": "trio://run_ogvplibsgt3s/weights/initial",
+    "model": "Qwen/Qwen3.8-27B",
+    "size": 1544407195,
+    "type": "save-checkpoint"
+  },
+  "current_episode_id": "m0v1-C-g-0094822e6dc65332-000096-forecast_next-natural",
+  "sampler_weights": {
+    "path": "trio://run_ogvplibsgt3s/sampler_weights/trial-final",
+    "model": "Qwen/Qwen3.8-27B",
+    "size": 577689657,
+    "type": "save-weights"
+  }
+}

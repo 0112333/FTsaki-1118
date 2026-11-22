@@ -1,0 +1,9 @@
+{
+  "version": "model0.messages.v1",
+  "harness_source": "/home/awa_0112333/project/FTsaki_harness/src/ftsaki_harness/inference.py",
+  "harness_source_sha256": "67b9cebf972f517142ce4def1d944ad16de90b4ef587e8a19565ae6798d7c3b3",
+  "instructions": {
+    "decide": "Return JSON: {\"decision\":\"drift|no_drift|insufficient\",\"evidence_refs\":[\"...\"],\"hypotheses\":[]}. Cite only supplied evidence_refs.",
+    "forecast_next": "Return JSON: {\"horizon\":32,\"feature_order\":[...],\"values\":[32 rows of finite feature values]}. Use precisely the supplied feature order. Predict unseen future inputs from supplied past only."
+  }
+}

@@ -1,0 +1,4 @@
+numpy==2.5.4
+pytrio==0.2.9
+swanlab==0.10.4
+transformers==5.22.2

@@ -1,0 +1,27 @@
+{
+  "C/forecast_next": {
+    "episode_id": "m0v1-C-g-64cbe5e8e3331508-000032-forecast_next-natural",
+    "evaluation_scope": "dev-format",
+    "max_prompt_tokens": 9017, "max_output_tokens": 7146, "deadline_seconds": 600
+  },
+  "B/decide": {
+    "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000008-decide-natural",
+    "evaluation_scope": "dev-format",
+    "max_prompt_tokens": 5535, "max_output_tokens": 256, "deadline_seconds": 180
+  },
+  "A/decide": {
+    "episode_id": "m0v1-A-g-a4a23c69bbb33453-000016-decide-natural",
+    "evaluation_scope": "dev-format",
+    "max_prompt_tokens": 18160, "max_output_tokens": 256, "deadline_seconds": 240
+  },
+  "B/forecast_next": {
+    "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000008-forecast_next-natural",
+    "evaluation_scope": "dev-format",
+    "max_prompt_tokens": 10630, "max_output_tokens": 26259, "deadline_seconds": 1200
+  },
+  "A/forecast_next": {
+    "episode_id": "m0v1-A-g-7d154cc4b36676d9-000032-forecast_next-natural",
+    "evaluation_scope": "known-train-format-only",
+    "max_prompt_tokens": 21980, "max_output_tokens": 43556, "deadline_seconds": 1800
+  }
+}

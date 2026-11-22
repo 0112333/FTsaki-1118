@@ -1,0 +1,179 @@
+{
+  "passed": true,
+  "baseline_acceptance_sha256": "3556f19792e88075a707417ae3651839c9e08fca15ec7c1089102a7d7ced04ab",
+  "contract_sha256": "1ccc21034579371b124bbec39b30d04cfae7bd3af8ae11391d624d4b5d166abd",
+  "actual_lora_initialization_passed": true,
+  "trial_limits": {
+    "rank": 16,
+    "learning_rate": 5e-05,
+    "batch_size": 1,
+    "max_epochs": 1,
+    "max_optim_steps": 16,
+    "sampling": "scene/task round robin; episode_id order within bucket",
+    "episodes": [
+      {
+        "episode_id": "m0v1-A-g-7d154cc4b36676d9-000016-decide-natural",
+        "split": "train",
+        "scenario": "A",
+        "task": "decide",
+        "sequence_tokens": 18183,
+        "prompt_tokens": 18162,
+        "assistant_tokens": 21
+      },
+      {
+        "episode_id": "m0v1-A-g-7d154cc4b36676d9-000032-forecast_next-natural",
+        "split": "train",
+        "scenario": "A",
+        "task": "forecast_next",
+        "sequence_tokens": 60781,
+        "prompt_tokens": 21980,
+        "assistant_tokens": 38801
+      },
+      {
+        "episode_id": "m0v1-B-g-77a7f15a644eb4ea-000008-decide-natural",
+        "split": "train",
+        "scenario": "B",
+        "task": "decide",
+        "sequence_tokens": 5537,
+        "prompt_tokens": 5516,
+        "assistant_tokens": 21
+      },
+      {
+        "episode_id": "m0v1-B-g-77a7f15a644eb4ea-000008-forecast_next-natural",
+        "split": "train",
+        "scenario": "B",
+        "task": "forecast_next",
+        "sequence_tokens": 30997,
+        "prompt_tokens": 10568,
+        "assistant_tokens": 20429
+      },
+      {
+        "episode_id": "m0v1-C-g-0094822e6dc65332-000032-decide-natural",
+        "split": "train",
+        "scenario": "C",
+        "task": "decide",
+        "sequence_tokens": 3873,
+        "prompt_tokens": 3852,
+        "assistant_tokens": 21
+      },
+      {
+        "episode_id": "m0v1-C-g-0094822e6dc65332-000032-forecast_next-natural",
+        "split": "train",
+        "scenario": "C",
+        "task": "forecast_next",
+        "sequence_tokens": 14354,
+        "prompt_tokens": 9077,
+        "assistant_tokens": 5277
+      },
+      {
+        "episode_id": "m0v1-A-g-7d154cc4b36676d9-000064-decide-control",
+        "split": "train",
+        "scenario": "A",
+        "task": "decide",
+        "sequence_tokens": 23433,
+        "prompt_tokens": 23409,
+        "assistant_tokens": 24
+      },
+      {
+        "episode_id": "m0v1-B-g-77a7f15a644eb4ea-000032-decide-control",
+        "split": "train",
+        "scenario": "B",
+        "task": "decide",
+        "sequence_tokens": 7006,
+        "prompt_tokens": 6982,
+        "assistant_tokens": 24
+      },
+      {
+        "episode_id": "m0v1-B-g-77a7f15a644eb4ea-000016-forecast_next-natural",
+        "split": "train",
+        "scenario": "B",
+        "task": "forecast_next",
+        "sequence_tokens": 36061,
+        "prompt_tokens": 15645,
+        "assistant_tokens": 20416
+      },
+      {
+        "episode_id": "m0v1-C-g-0094822e6dc65332-000128-decide-control",
+        "split": "train",
+        "scenario": "C",
+        "task": "decide",
+        "sequence_tokens": 4884,
+        "prompt_tokens": 4860,
+        "assistant_tokens": 24
+      },
+      {
+        "episode_id": "m0v1-C-g-0094822e6dc65332-000064-forecast_next-natural",
+        "split": "train",
+        "scenario": "C",
+        "task": "forecast_next",
+        "sequence_tokens": 14404,
+        "prompt_tokens": 9126,
+        "assistant_tokens": 5278
+      },
+      {
+        "episode_id": "m0v1-A-g-7d154cc4b36676d9-000064-decide-shift",
+        "split": "train",
+        "scenario": "A",
+        "task": "decide",
+        "sequence_tokens": 23450,
+        "prompt_tokens": 23427,
+        "assistant_tokens": 23
+      },
+      {
+        "episode_id": "m0v1-B-g-77a7f15a644eb4ea-000032-decide-shift",
+        "split": "train",
+        "scenario": "B",
+        "task": "decide",
+        "sequence_tokens": 7018,
+        "prompt_tokens": 6995,
+        "assistant_tokens": 23
+      },
+      {
+        "episode_id": "m0v1-B-g-77a7f15a644eb4ea-000024-forecast_next-natural",
+        "split": "train",
+        "scenario": "B",
+        "task": "forecast_next",
+        "sequence_tokens": 41075,
+        "prompt_tokens": 20688,
+        "assistant_tokens": 20387
+      },
+      {
+        "episode_id": "m0v1-C-g-0094822e6dc65332-000128-decide-shift",
+        "split": "train",
+        "scenario": "C",
+        "task": "decide",
+        "sequence_tokens": 4875,
+        "prompt_tokens": 4852,
+        "assistant_tokens": 23
+      },
+      {
+        "episode_id": "m0v1-C-g-0094822e6dc65332-000096-forecast_next-natural",
+        "split": "train",
+        "scenario": "C",
+        "task": "forecast_next",
+        "sequence_tokens": 14378,
+        "prompt_tokens": 9106,
+        "assistant_tokens": 5272
+      }
+    ],
+    "max_sequence_token_sum": 310309,
+    "max_forward_backward_calls": 16,
+    "max_save_calls": 18,
+    "max_sequence_tokens": 310309,
+    "deadline_seconds": 14400,
+    "loss_normalization": "sum of assistant token weights per example = 1",
+    "auto_shift": false,
+    "base_model": "Qwen/Qwen3.8-27B",
+    "seed": 42,
+    "fresh_lora": true,
+    "workspace": "workspace_1o9brly7x8y1",
+    "contract_sha256": "1ccc21034579371b124bbec39b30d04cfae7bd3af8ae11391d624d4b5d166abd",
+    "execution_files": {
+      "scripts/train_model0_trial.py": "53813e2e74c8a6310fc7c4a23f525eaaa590171957dc0d20e9aa14e95526fe56",
+      "scripts/model0_messages.py": "9583f71b86f19f9ad92c601d20d9e287d8e2927674172f764c26a448a8f71fed",
+      "scripts/model0_input.py": "e699e276a7afdbf27ba6210351f49ed50b964d17d0df8d6b41eac2c320e385db"
+    },
+    "pricing_verified": false,
+    "budget_source": "Existing user-authorized quota; stop and contact on exhaustion"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "python": "/home/awa_0112333/FTsaki/bin/python",
+  "environment_user_confirmed": true,
+  "pytrio_workspace_id": "workspace_1o9brly7x8y1",
+  "pytrio_workspace_name": "宁静祥和令人向往丰台祥子",
+  "model": "Qwen/Qwen3.8-27B",
+  "swanlab_workspace": "ft_sakiko",
+  "swanlab_project": "model0-training",
+  "swanlab_permission_status": "write_verified",
+  "swanlab_team_target": "FT_saki",
+  "team_upload_pending": true
+}

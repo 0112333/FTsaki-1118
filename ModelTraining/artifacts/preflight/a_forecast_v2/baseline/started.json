@@ -1,0 +1,2466 @@
+{
+  "state": "ready_user_approved_entry_revision",
+  "model": "Qwen/Qwen3.8-27B",
+  "workspace": "workspace_1o9brly7x8y1",
+  "contract_sha256": "1ccc21034579371b124bbec39b30d04cfae7bd3af8ae11391d624d4b5d166abd",
+  "max_calls": 244,
+  "max_billable_text_tokens": 3559529,
+  "max_steps": 0,
+  "deadline_seconds": 14400,
+  "concurrency": 4,
+  "attempts_per_episode": 1,
+  "reuse_same_protocol_dev_probes": true,
+  "temperature": 0,
+  "seed": 42,
+  "pricing_verified": false,
+  "balance_verified": false,
+  "budget_source": "Existing user-authorized workspace quota; stop on exhaustion",
+  "cases": [
+    {
+      "episode_id": "m0v1-A-g-a4a23c69bbb33453-000016-decide-natural",
+      "split": "dev",
+      "scenario": "A",
+      "task": "decide",
+      "sequence_tokens": 18181,
+      "prompt_tokens": 18160,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-A-g-a4a23c69bbb33453-000026-decide-natural",
+      "split": "dev",
+      "scenario": "A",
+      "task": "decide",
+      "sequence_tokens": 18521,
+      "prompt_tokens": 18500,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000008-decide-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "decide",
+      "sequence_tokens": 5556,
+      "prompt_tokens": 5535,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000008-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 31227,
+      "prompt_tokens": 10630,
+      "assistant_tokens": 20597,
+      "max_output_tokens": 26259
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000016-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 36345,
+      "prompt_tokens": 15755,
+      "assistant_tokens": 20590,
+      "max_output_tokens": 26250
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000024-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 41397,
+      "prompt_tokens": 20845,
+      "assistant_tokens": 20552,
+      "max_output_tokens": 26202
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000032-decide-control",
+      "split": "dev",
+      "scenario": "B",
+      "task": "decide",
+      "sequence_tokens": 7066,
+      "prompt_tokens": 7042,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000032-decide-shift",
+      "split": "dev",
+      "scenario": "B",
+      "task": "decide",
+      "sequence_tokens": 7061,
+      "prompt_tokens": 7038,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 46423,
+      "prompt_tokens": 25934,
+      "assistant_tokens": 20489,
+      "max_output_tokens": 26124
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000040-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 46351,
+      "prompt_tokens": 25950,
+      "assistant_tokens": 20401,
+      "max_output_tokens": 26014
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000048-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 46258,
+      "prompt_tokens": 25937,
+      "assistant_tokens": 20321,
+      "max_output_tokens": 25914
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000056-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 46158,
+      "prompt_tokens": 25882,
+      "assistant_tokens": 20276,
+      "max_output_tokens": 25857
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000064-decide-control",
+      "split": "dev",
+      "scenario": "B",
+      "task": "decide",
+      "sequence_tokens": 8543,
+      "prompt_tokens": 8519,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000064-decide-shift",
+      "split": "dev",
+      "scenario": "B",
+      "task": "decide",
+      "sequence_tokens": 8553,
+      "prompt_tokens": 8530,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 47507,
+      "prompt_tokens": 27270,
+      "assistant_tokens": 20237,
+      "max_output_tokens": 25809
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000072-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 47434,
+      "prompt_tokens": 27175,
+      "assistant_tokens": 20259,
+      "max_output_tokens": 25836
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000080-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 47307,
+      "prompt_tokens": 27057,
+      "assistant_tokens": 20250,
+      "max_output_tokens": 25825
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000088-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 47239,
+      "prompt_tokens": 27015,
+      "assistant_tokens": 20224,
+      "max_output_tokens": 25792
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000096-decide-control",
+      "split": "dev",
+      "scenario": "B",
+      "task": "decide",
+      "sequence_tokens": 8437,
+      "prompt_tokens": 8413,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000096-decide-shift",
+      "split": "dev",
+      "scenario": "B",
+      "task": "decide",
+      "sequence_tokens": 8450,
+      "prompt_tokens": 8427,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 47189,
+      "prompt_tokens": 26970,
+      "assistant_tokens": 20219,
+      "max_output_tokens": 25786
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000104-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 47169,
+      "prompt_tokens": 26988,
+      "assistant_tokens": 20181,
+      "max_output_tokens": 25739
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000112-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 47145,
+      "prompt_tokens": 26981,
+      "assistant_tokens": 20164,
+      "max_output_tokens": 25717
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000120-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 47084,
+      "prompt_tokens": 26940,
+      "assistant_tokens": 20144,
+      "max_output_tokens": 25692
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000128-decide-control",
+      "split": "dev",
+      "scenario": "B",
+      "task": "decide",
+      "sequence_tokens": 8429,
+      "prompt_tokens": 8405,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000128-decide-shift",
+      "split": "dev",
+      "scenario": "B",
+      "task": "decide",
+      "sequence_tokens": 8455,
+      "prompt_tokens": 8432,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 47130,
+      "prompt_tokens": 27014,
+      "assistant_tokens": 20116,
+      "max_output_tokens": 25657
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000160-decide-control",
+      "split": "dev",
+      "scenario": "B",
+      "task": "decide",
+      "sequence_tokens": 8423,
+      "prompt_tokens": 8399,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000160-decide-shift",
+      "split": "dev",
+      "scenario": "B",
+      "task": "decide",
+      "sequence_tokens": 8435,
+      "prompt_tokens": 8412,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3830,
+      "prompt_tokens": 3809,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14437,
+      "prompt_tokens": 9093,
+      "assistant_tokens": 5344,
+      "max_output_tokens": 7192
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14467,
+      "prompt_tokens": 9139,
+      "assistant_tokens": 5328,
+      "max_output_tokens": 7172
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14452,
+      "prompt_tokens": 9143,
+      "assistant_tokens": 5309,
+      "max_output_tokens": 7149
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4783,
+      "prompt_tokens": 4759,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4759,
+      "prompt_tokens": 4736,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14482,
+      "prompt_tokens": 9150,
+      "assistant_tokens": 5332,
+      "max_output_tokens": 7177
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000160-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14481,
+      "prompt_tokens": 9145,
+      "assistant_tokens": 5336,
+      "max_output_tokens": 7182
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000192-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14520,
+      "prompt_tokens": 9186,
+      "assistant_tokens": 5334,
+      "max_output_tokens": 7180
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000224-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14502,
+      "prompt_tokens": 9164,
+      "assistant_tokens": 5338,
+      "max_output_tokens": 7185
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000256-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5824,
+      "prompt_tokens": 5800,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000256-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5894,
+      "prompt_tokens": 5871,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000256-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15499,
+      "prompt_tokens": 10170,
+      "assistant_tokens": 5329,
+      "max_output_tokens": 7174
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000288-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15507,
+      "prompt_tokens": 10169,
+      "assistant_tokens": 5338,
+      "max_output_tokens": 7185
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000320-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15503,
+      "prompt_tokens": 10182,
+      "assistant_tokens": 5321,
+      "max_output_tokens": 7164
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000352-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15487,
+      "prompt_tokens": 10162,
+      "assistant_tokens": 5325,
+      "max_output_tokens": 7169
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000384-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5821,
+      "prompt_tokens": 5797,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000384-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5841,
+      "prompt_tokens": 5818,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000384-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15455,
+      "prompt_tokens": 10138,
+      "assistant_tokens": 5317,
+      "max_output_tokens": 7159
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000416-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15491,
+      "prompt_tokens": 10127,
+      "assistant_tokens": 5364,
+      "max_output_tokens": 7217
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000448-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15537,
+      "prompt_tokens": 10180,
+      "assistant_tokens": 5357,
+      "max_output_tokens": 7209
+    },
+    {
+      "episode_id": "m0v1-C-g-2be39e0ac7f9585e-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3857,
+      "prompt_tokens": 3836,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-2be39e0ac7f9585e-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14346,
+      "prompt_tokens": 9049,
+      "assistant_tokens": 5297,
+      "max_output_tokens": 7134
+    },
+    {
+      "episode_id": "m0v1-C-g-2be39e0ac7f9585e-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14402,
+      "prompt_tokens": 9107,
+      "assistant_tokens": 5295,
+      "max_output_tokens": 7131
+    },
+    {
+      "episode_id": "m0v1-C-g-2be39e0ac7f9585e-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14388,
+      "prompt_tokens": 9115,
+      "assistant_tokens": 5273,
+      "max_output_tokens": 7104
+    },
+    {
+      "episode_id": "m0v1-C-g-2be39e0ac7f9585e-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4813,
+      "prompt_tokens": 4789,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-2be39e0ac7f9585e-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4795,
+      "prompt_tokens": 4772,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-2be39e0ac7f9585e-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14363,
+      "prompt_tokens": 9104,
+      "assistant_tokens": 5259,
+      "max_output_tokens": 7086
+    },
+    {
+      "episode_id": "m0v1-C-g-2be39e0ac7f9585e-000160-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14420,
+      "prompt_tokens": 9155,
+      "assistant_tokens": 5265,
+      "max_output_tokens": 7094
+    },
+    {
+      "episode_id": "m0v1-C-g-2be39e0ac7f9585e-000192-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14425,
+      "prompt_tokens": 9117,
+      "assistant_tokens": 5308,
+      "max_output_tokens": 7147
+    },
+    {
+      "episode_id": "m0v1-C-g-2be39e0ac7f9585e-000224-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14464,
+      "prompt_tokens": 9183,
+      "assistant_tokens": 5281,
+      "max_output_tokens": 7114
+    },
+    {
+      "episode_id": "m0v1-C-g-2be39e0ac7f9585e-000256-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5847,
+      "prompt_tokens": 5823,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-2be39e0ac7f9585e-000256-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5859,
+      "prompt_tokens": 5836,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3866,
+      "prompt_tokens": 3845,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14357,
+      "prompt_tokens": 9067,
+      "assistant_tokens": 5290,
+      "max_output_tokens": 7125
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14404,
+      "prompt_tokens": 9126,
+      "assistant_tokens": 5278,
+      "max_output_tokens": 7110
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14363,
+      "prompt_tokens": 9102,
+      "assistant_tokens": 5261,
+      "max_output_tokens": 7089
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4861,
+      "prompt_tokens": 4837,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4845,
+      "prompt_tokens": 4822,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14382,
+      "prompt_tokens": 9117,
+      "assistant_tokens": 5265,
+      "max_output_tokens": 7094
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000160-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14386,
+      "prompt_tokens": 9125,
+      "assistant_tokens": 5261,
+      "max_output_tokens": 7089
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000192-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14381,
+      "prompt_tokens": 9114,
+      "assistant_tokens": 5267,
+      "max_output_tokens": 7096
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000224-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14429,
+      "prompt_tokens": 9148,
+      "assistant_tokens": 5281,
+      "max_output_tokens": 7114
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000256-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5846,
+      "prompt_tokens": 5822,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000256-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5857,
+      "prompt_tokens": 5834,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000256-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15473,
+      "prompt_tokens": 10173,
+      "assistant_tokens": 5300,
+      "max_output_tokens": 7137
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000288-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15444,
+      "prompt_tokens": 10162,
+      "assistant_tokens": 5282,
+      "max_output_tokens": 7115
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000320-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15442,
+      "prompt_tokens": 10158,
+      "assistant_tokens": 5284,
+      "max_output_tokens": 7117
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000352-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15438,
+      "prompt_tokens": 10162,
+      "assistant_tokens": 5276,
+      "max_output_tokens": 7107
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000384-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5844,
+      "prompt_tokens": 5820,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000384-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5833,
+      "prompt_tokens": 5810,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000384-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15434,
+      "prompt_tokens": 10155,
+      "assistant_tokens": 5279,
+      "max_output_tokens": 7111
+    },
+    {
+      "episode_id": "m0v1-C-g-3768cd3f98214a8c-000416-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15441,
+      "prompt_tokens": 10170,
+      "assistant_tokens": 5271,
+      "max_output_tokens": 7101
+    },
+    {
+      "episode_id": "m0v1-C-g-49db39779a683a86-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3838,
+      "prompt_tokens": 3817,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-49db39779a683a86-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14321,
+      "prompt_tokens": 9033,
+      "assistant_tokens": 5288,
+      "max_output_tokens": 7122
+    },
+    {
+      "episode_id": "m0v1-C-g-49db39779a683a86-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14403,
+      "prompt_tokens": 9117,
+      "assistant_tokens": 5286,
+      "max_output_tokens": 7120
+    },
+    {
+      "episode_id": "m0v1-C-g-49db39779a683a86-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14398,
+      "prompt_tokens": 9122,
+      "assistant_tokens": 5276,
+      "max_output_tokens": 7107
+    },
+    {
+      "episode_id": "m0v1-C-g-49db39779a683a86-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4847,
+      "prompt_tokens": 4823,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-49db39779a683a86-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4858,
+      "prompt_tokens": 4835,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-49db39779a683a86-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14431,
+      "prompt_tokens": 9132,
+      "assistant_tokens": 5299,
+      "max_output_tokens": 7136
+    },
+    {
+      "episode_id": "m0v1-C-g-49db39779a683a86-000160-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14424,
+      "prompt_tokens": 9134,
+      "assistant_tokens": 5290,
+      "max_output_tokens": 7125
+    },
+    {
+      "episode_id": "m0v1-C-g-4dd9378e6ae3a0d3-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3860,
+      "prompt_tokens": 3839,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-4dd9378e6ae3a0d3-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14327,
+      "prompt_tokens": 9036,
+      "assistant_tokens": 5291,
+      "max_output_tokens": 7126
+    },
+    {
+      "episode_id": "m0v1-C-g-4dd9378e6ae3a0d3-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14404,
+      "prompt_tokens": 9141,
+      "assistant_tokens": 5263,
+      "max_output_tokens": 7091
+    },
+    {
+      "episode_id": "m0v1-C-g-4dd9378e6ae3a0d3-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14371,
+      "prompt_tokens": 9091,
+      "assistant_tokens": 5280,
+      "max_output_tokens": 7112
+    },
+    {
+      "episode_id": "m0v1-C-g-4dd9378e6ae3a0d3-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4887,
+      "prompt_tokens": 4863,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-4dd9378e6ae3a0d3-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4897,
+      "prompt_tokens": 4874,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-4dd9378e6ae3a0d3-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14386,
+      "prompt_tokens": 9095,
+      "assistant_tokens": 5291,
+      "max_output_tokens": 7126
+    },
+    {
+      "episode_id": "m0v1-C-g-4e4bbaec892792a2-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3850,
+      "prompt_tokens": 3829,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-4e4bbaec892792a2-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14353,
+      "prompt_tokens": 9050,
+      "assistant_tokens": 5303,
+      "max_output_tokens": 7141
+    },
+    {
+      "episode_id": "m0v1-C-g-4e4bbaec892792a2-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14396,
+      "prompt_tokens": 9100,
+      "assistant_tokens": 5296,
+      "max_output_tokens": 7132
+    },
+    {
+      "episode_id": "m0v1-C-g-4e4bbaec892792a2-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14416,
+      "prompt_tokens": 9123,
+      "assistant_tokens": 5293,
+      "max_output_tokens": 7129
+    },
+    {
+      "episode_id": "m0v1-C-g-4e4bbaec892792a2-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4783,
+      "prompt_tokens": 4759,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-4e4bbaec892792a2-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4805,
+      "prompt_tokens": 4782,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-4e4bbaec892792a2-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14443,
+      "prompt_tokens": 9151,
+      "assistant_tokens": 5292,
+      "max_output_tokens": 7127
+    },
+    {
+      "episode_id": "m0v1-C-g-4e4bbaec892792a2-000160-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14435,
+      "prompt_tokens": 9164,
+      "assistant_tokens": 5271,
+      "max_output_tokens": 7101
+    },
+    {
+      "episode_id": "m0v1-C-g-4e4bbaec892792a2-000192-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14400,
+      "prompt_tokens": 9137,
+      "assistant_tokens": 5263,
+      "max_output_tokens": 7091
+    },
+    {
+      "episode_id": "m0v1-C-g-64cbe5e8e3331508-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3820,
+      "prompt_tokens": 3799,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-64cbe5e8e3331508-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14324,
+      "prompt_tokens": 9017,
+      "assistant_tokens": 5307,
+      "max_output_tokens": 7146
+    },
+    {
+      "episode_id": "m0v1-C-g-64cbe5e8e3331508-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14396,
+      "prompt_tokens": 9107,
+      "assistant_tokens": 5289,
+      "max_output_tokens": 7124
+    },
+    {
+      "episode_id": "m0v1-C-g-64cbe5e8e3331508-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14392,
+      "prompt_tokens": 9120,
+      "assistant_tokens": 5272,
+      "max_output_tokens": 7102
+    },
+    {
+      "episode_id": "m0v1-C-g-64cbe5e8e3331508-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4784,
+      "prompt_tokens": 4760,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-64cbe5e8e3331508-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4797,
+      "prompt_tokens": 4774,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-64cbe5e8e3331508-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14410,
+      "prompt_tokens": 9117,
+      "assistant_tokens": 5293,
+      "max_output_tokens": 7129
+    },
+    {
+      "episode_id": "m0v1-C-g-64cbe5e8e3331508-000160-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14443,
+      "prompt_tokens": 9150,
+      "assistant_tokens": 5293,
+      "max_output_tokens": 7129
+    },
+    {
+      "episode_id": "m0v1-C-g-8181573ff81cb191-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3874,
+      "prompt_tokens": 3853,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-8181573ff81cb191-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14386,
+      "prompt_tokens": 9078,
+      "assistant_tokens": 5308,
+      "max_output_tokens": 7147
+    },
+    {
+      "episode_id": "m0v1-C-g-8181573ff81cb191-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14394,
+      "prompt_tokens": 9115,
+      "assistant_tokens": 5279,
+      "max_output_tokens": 7111
+    },
+    {
+      "episode_id": "m0v1-C-g-8181573ff81cb191-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14389,
+      "prompt_tokens": 9118,
+      "assistant_tokens": 5271,
+      "max_output_tokens": 7101
+    },
+    {
+      "episode_id": "m0v1-C-g-8181573ff81cb191-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4800,
+      "prompt_tokens": 4776,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-8181573ff81cb191-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4812,
+      "prompt_tokens": 4789,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-8181573ff81cb191-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14434,
+      "prompt_tokens": 9144,
+      "assistant_tokens": 5290,
+      "max_output_tokens": 7125
+    },
+    {
+      "episode_id": "m0v1-C-g-8181573ff81cb191-000160-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14420,
+      "prompt_tokens": 9141,
+      "assistant_tokens": 5279,
+      "max_output_tokens": 7111
+    },
+    {
+      "episode_id": "m0v1-C-g-845deda4478d06bb-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3857,
+      "prompt_tokens": 3836,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-845deda4478d06bb-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14308,
+      "prompt_tokens": 9034,
+      "assistant_tokens": 5274,
+      "max_output_tokens": 7105
+    },
+    {
+      "episode_id": "m0v1-C-g-845deda4478d06bb-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14373,
+      "prompt_tokens": 9081,
+      "assistant_tokens": 5292,
+      "max_output_tokens": 7127
+    },
+    {
+      "episode_id": "m0v1-C-g-845deda4478d06bb-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14400,
+      "prompt_tokens": 9107,
+      "assistant_tokens": 5293,
+      "max_output_tokens": 7129
+    },
+    {
+      "episode_id": "m0v1-C-g-845deda4478d06bb-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4808,
+      "prompt_tokens": 4784,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-845deda4478d06bb-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4793,
+      "prompt_tokens": 4770,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-845deda4478d06bb-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14412,
+      "prompt_tokens": 9136,
+      "assistant_tokens": 5276,
+      "max_output_tokens": 7107
+    },
+    {
+      "episode_id": "m0v1-C-g-845deda4478d06bb-000160-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14437,
+      "prompt_tokens": 9149,
+      "assistant_tokens": 5288,
+      "max_output_tokens": 7122
+    },
+    {
+      "episode_id": "m0v1-C-g-845deda4478d06bb-000192-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14438,
+      "prompt_tokens": 9143,
+      "assistant_tokens": 5295,
+      "max_output_tokens": 7131
+    },
+    {
+      "episode_id": "m0v1-C-g-845deda4478d06bb-000224-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14430,
+      "prompt_tokens": 9147,
+      "assistant_tokens": 5283,
+      "max_output_tokens": 7116
+    },
+    {
+      "episode_id": "m0v1-C-g-845deda4478d06bb-000256-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5848,
+      "prompt_tokens": 5824,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-845deda4478d06bb-000256-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5861,
+      "prompt_tokens": 5838,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-8c93b15f1a9b5df6-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3890,
+      "prompt_tokens": 3869,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-8c93b15f1a9b5df6-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14378,
+      "prompt_tokens": 9083,
+      "assistant_tokens": 5295,
+      "max_output_tokens": 7131
+    },
+    {
+      "episode_id": "m0v1-C-g-8c93b15f1a9b5df6-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14379,
+      "prompt_tokens": 9107,
+      "assistant_tokens": 5272,
+      "max_output_tokens": 7102
+    },
+    {
+      "episode_id": "m0v1-C-g-8c93b15f1a9b5df6-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14381,
+      "prompt_tokens": 9101,
+      "assistant_tokens": 5280,
+      "max_output_tokens": 7112
+    },
+    {
+      "episode_id": "m0v1-C-g-8c93b15f1a9b5df6-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4813,
+      "prompt_tokens": 4789,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-8c93b15f1a9b5df6-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4826,
+      "prompt_tokens": 4803,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-8c93b15f1a9b5df6-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14425,
+      "prompt_tokens": 9141,
+      "assistant_tokens": 5284,
+      "max_output_tokens": 7117
+    },
+    {
+      "episode_id": "m0v1-C-g-8c93b15f1a9b5df6-000160-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14440,
+      "prompt_tokens": 9156,
+      "assistant_tokens": 5284,
+      "max_output_tokens": 7117
+    },
+    {
+      "episode_id": "m0v1-C-g-8c93b15f1a9b5df6-000192-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14428,
+      "prompt_tokens": 9154,
+      "assistant_tokens": 5274,
+      "max_output_tokens": 7105
+    },
+    {
+      "episode_id": "m0v1-C-g-8c93b15f1a9b5df6-000224-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14419,
+      "prompt_tokens": 9136,
+      "assistant_tokens": 5283,
+      "max_output_tokens": 7116
+    },
+    {
+      "episode_id": "m0v1-C-g-8c93b15f1a9b5df6-000256-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5876,
+      "prompt_tokens": 5852,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-8c93b15f1a9b5df6-000256-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5882,
+      "prompt_tokens": 5859,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-8c93b15f1a9b5df6-000256-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15425,
+      "prompt_tokens": 10152,
+      "assistant_tokens": 5273,
+      "max_output_tokens": 7104
+    },
+    {
+      "episode_id": "m0v1-C-g-8c93b15f1a9b5df6-000288-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15417,
+      "prompt_tokens": 10130,
+      "assistant_tokens": 5287,
+      "max_output_tokens": 7121
+    },
+    {
+      "episode_id": "m0v1-C-g-95c23a375f07ff58-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3885,
+      "prompt_tokens": 3864,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-95c23a375f07ff58-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14406,
+      "prompt_tokens": 9087,
+      "assistant_tokens": 5319,
+      "max_output_tokens": 7161
+    },
+    {
+      "episode_id": "m0v1-C-g-95c23a375f07ff58-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14420,
+      "prompt_tokens": 9157,
+      "assistant_tokens": 5263,
+      "max_output_tokens": 7091
+    },
+    {
+      "episode_id": "m0v1-C-g-95c23a375f07ff58-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14382,
+      "prompt_tokens": 9088,
+      "assistant_tokens": 5294,
+      "max_output_tokens": 7130
+    },
+    {
+      "episode_id": "m0v1-C-g-95c23a375f07ff58-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4858,
+      "prompt_tokens": 4834,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-95c23a375f07ff58-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4872,
+      "prompt_tokens": 4849,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-95c23a375f07ff58-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14432,
+      "prompt_tokens": 9169,
+      "assistant_tokens": 5263,
+      "max_output_tokens": 7091
+    },
+    {
+      "episode_id": "m0v1-C-g-988bef2923292bbf-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3860,
+      "prompt_tokens": 3839,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-988bef2923292bbf-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14357,
+      "prompt_tokens": 9053,
+      "assistant_tokens": 5304,
+      "max_output_tokens": 7142
+    },
+    {
+      "episode_id": "m0v1-C-g-988bef2923292bbf-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14408,
+      "prompt_tokens": 9131,
+      "assistant_tokens": 5277,
+      "max_output_tokens": 7109
+    },
+    {
+      "episode_id": "m0v1-C-g-988bef2923292bbf-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14394,
+      "prompt_tokens": 9121,
+      "assistant_tokens": 5273,
+      "max_output_tokens": 7104
+    },
+    {
+      "episode_id": "m0v1-C-g-988bef2923292bbf-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4834,
+      "prompt_tokens": 4810,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-988bef2923292bbf-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4847,
+      "prompt_tokens": 4824,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-988bef2923292bbf-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14384,
+      "prompt_tokens": 9103,
+      "assistant_tokens": 5281,
+      "max_output_tokens": 7114
+    },
+    {
+      "episode_id": "m0v1-C-g-988bef2923292bbf-000160-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14422,
+      "prompt_tokens": 9126,
+      "assistant_tokens": 5296,
+      "max_output_tokens": 7132
+    },
+    {
+      "episode_id": "m0v1-C-g-988bef2923292bbf-000192-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14450,
+      "prompt_tokens": 9164,
+      "assistant_tokens": 5286,
+      "max_output_tokens": 7120
+    },
+    {
+      "episode_id": "m0v1-C-g-988bef2923292bbf-000224-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14411,
+      "prompt_tokens": 9149,
+      "assistant_tokens": 5262,
+      "max_output_tokens": 7090
+    },
+    {
+      "episode_id": "m0v1-C-g-988bef2923292bbf-000256-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5876,
+      "prompt_tokens": 5852,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-988bef2923292bbf-000256-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5899,
+      "prompt_tokens": 5876,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-988bef2923292bbf-000256-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15435,
+      "prompt_tokens": 10162,
+      "assistant_tokens": 5273,
+      "max_output_tokens": 7104
+    },
+    {
+      "episode_id": "m0v1-C-g-988bef2923292bbf-000288-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15440,
+      "prompt_tokens": 10159,
+      "assistant_tokens": 5281,
+      "max_output_tokens": 7114
+    },
+    {
+      "episode_id": "m0v1-C-g-99096ee1c1673888-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3845,
+      "prompt_tokens": 3824,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-99096ee1c1673888-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14376,
+      "prompt_tokens": 9073,
+      "assistant_tokens": 5303,
+      "max_output_tokens": 7141
+    },
+    {
+      "episode_id": "m0v1-C-g-99096ee1c1673888-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14413,
+      "prompt_tokens": 9118,
+      "assistant_tokens": 5295,
+      "max_output_tokens": 7131
+    },
+    {
+      "episode_id": "m0v1-C-g-99096ee1c1673888-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14398,
+      "prompt_tokens": 9105,
+      "assistant_tokens": 5293,
+      "max_output_tokens": 7129
+    },
+    {
+      "episode_id": "m0v1-C-g-99096ee1c1673888-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4818,
+      "prompt_tokens": 4794,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-99096ee1c1673888-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4801,
+      "prompt_tokens": 4778,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-99096ee1c1673888-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14428,
+      "prompt_tokens": 9130,
+      "assistant_tokens": 5298,
+      "max_output_tokens": 7135
+    },
+    {
+      "episode_id": "m0v1-C-g-99096ee1c1673888-000160-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14445,
+      "prompt_tokens": 9150,
+      "assistant_tokens": 5295,
+      "max_output_tokens": 7131
+    },
+    {
+      "episode_id": "m0v1-C-g-99096ee1c1673888-000192-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14444,
+      "prompt_tokens": 9139,
+      "assistant_tokens": 5305,
+      "max_output_tokens": 7144
+    },
+    {
+      "episode_id": "m0v1-C-g-99096ee1c1673888-000224-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14474,
+      "prompt_tokens": 9160,
+      "assistant_tokens": 5314,
+      "max_output_tokens": 7155
+    },
+    {
+      "episode_id": "m0v1-C-g-99096ee1c1673888-000256-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5816,
+      "prompt_tokens": 5792,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-99096ee1c1673888-000256-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5833,
+      "prompt_tokens": 5810,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-99096ee1c1673888-000256-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15495,
+      "prompt_tokens": 10168,
+      "assistant_tokens": 5327,
+      "max_output_tokens": 7171
+    },
+    {
+      "episode_id": "m0v1-C-g-99096ee1c1673888-000288-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15513,
+      "prompt_tokens": 10163,
+      "assistant_tokens": 5350,
+      "max_output_tokens": 7200
+    },
+    {
+      "episode_id": "m0v1-C-g-ae867713546dd284-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3835,
+      "prompt_tokens": 3814,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-ae867713546dd284-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14386,
+      "prompt_tokens": 9077,
+      "assistant_tokens": 5309,
+      "max_output_tokens": 7149
+    },
+    {
+      "episode_id": "m0v1-C-g-ae867713546dd284-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14431,
+      "prompt_tokens": 9100,
+      "assistant_tokens": 5331,
+      "max_output_tokens": 7176
+    },
+    {
+      "episode_id": "m0v1-C-g-ae867713546dd284-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14475,
+      "prompt_tokens": 9144,
+      "assistant_tokens": 5331,
+      "max_output_tokens": 7176
+    },
+    {
+      "episode_id": "m0v1-C-g-ae867713546dd284-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4778,
+      "prompt_tokens": 4754,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-ae867713546dd284-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4789,
+      "prompt_tokens": 4766,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-ae867713546dd284-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14474,
+      "prompt_tokens": 9141,
+      "assistant_tokens": 5333,
+      "max_output_tokens": 7179
+    },
+    {
+      "episode_id": "m0v1-C-g-ae867713546dd284-000160-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14498,
+      "prompt_tokens": 9177,
+      "assistant_tokens": 5321,
+      "max_output_tokens": 7164
+    },
+    {
+      "episode_id": "m0v1-C-g-ae867713546dd284-000192-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14474,
+      "prompt_tokens": 9166,
+      "assistant_tokens": 5308,
+      "max_output_tokens": 7147
+    },
+    {
+      "episode_id": "m0v1-C-g-ae867713546dd284-000224-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14467,
+      "prompt_tokens": 9137,
+      "assistant_tokens": 5330,
+      "max_output_tokens": 7175
+    },
+    {
+      "episode_id": "m0v1-C-g-ae867713546dd284-000256-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5798,
+      "prompt_tokens": 5774,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-ae867713546dd284-000256-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5786,
+      "prompt_tokens": 5763,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-b2cc5a28e1eb5870-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3888,
+      "prompt_tokens": 3867,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-b2cc5a28e1eb5870-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14361,
+      "prompt_tokens": 9066,
+      "assistant_tokens": 5295,
+      "max_output_tokens": 7131
+    },
+    {
+      "episode_id": "m0v1-C-g-b2cc5a28e1eb5870-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14421,
+      "prompt_tokens": 9139,
+      "assistant_tokens": 5282,
+      "max_output_tokens": 7115
+    },
+    {
+      "episode_id": "m0v1-C-g-b2cc5a28e1eb5870-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14360,
+      "prompt_tokens": 9089,
+      "assistant_tokens": 5271,
+      "max_output_tokens": 7101
+    },
+    {
+      "episode_id": "m0v1-C-g-b2cc5a28e1eb5870-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4872,
+      "prompt_tokens": 4848,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-b2cc5a28e1eb5870-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4871,
+      "prompt_tokens": 4848,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-b2cc5a28e1eb5870-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14404,
+      "prompt_tokens": 9127,
+      "assistant_tokens": 5277,
+      "max_output_tokens": 7109
+    },
+    {
+      "episode_id": "m0v1-C-g-b2cc5a28e1eb5870-000160-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14406,
+      "prompt_tokens": 9132,
+      "assistant_tokens": 5274,
+      "max_output_tokens": 7105
+    },
+    {
+      "episode_id": "m0v1-C-g-b2cc5a28e1eb5870-000192-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14388,
+      "prompt_tokens": 9109,
+      "assistant_tokens": 5279,
+      "max_output_tokens": 7111
+    },
+    {
+      "episode_id": "m0v1-C-g-b2cc5a28e1eb5870-000224-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14393,
+      "prompt_tokens": 9129,
+      "assistant_tokens": 5264,
+      "max_output_tokens": 7092
+    },
+    {
+      "episode_id": "m0v1-C-g-b2cc5a28e1eb5870-000256-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5804,
+      "prompt_tokens": 5780,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-b2cc5a28e1eb5870-000256-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5820,
+      "prompt_tokens": 5797,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-b4c27fde1b528713-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3843,
+      "prompt_tokens": 3822,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-b4c27fde1b528713-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14419,
+      "prompt_tokens": 9078,
+      "assistant_tokens": 5341,
+      "max_output_tokens": 7189
+    },
+    {
+      "episode_id": "m0v1-C-g-b4c27fde1b528713-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14487,
+      "prompt_tokens": 9162,
+      "assistant_tokens": 5325,
+      "max_output_tokens": 7169
+    },
+    {
+      "episode_id": "m0v1-C-g-b4c27fde1b528713-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14453,
+      "prompt_tokens": 9125,
+      "assistant_tokens": 5328,
+      "max_output_tokens": 7172
+    },
+    {
+      "episode_id": "m0v1-C-g-b4c27fde1b528713-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4832,
+      "prompt_tokens": 4808,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-b4c27fde1b528713-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4845,
+      "prompt_tokens": 4822,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-b4c27fde1b528713-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14512,
+      "prompt_tokens": 9174,
+      "assistant_tokens": 5338,
+      "max_output_tokens": 7185
+    },
+    {
+      "episode_id": "m0v1-C-g-b4c27fde1b528713-000160-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14519,
+      "prompt_tokens": 9186,
+      "assistant_tokens": 5333,
+      "max_output_tokens": 7179
+    },
+    {
+      "episode_id": "m0v1-C-g-b63eea454377a75a-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3839,
+      "prompt_tokens": 3818,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-b63eea454377a75a-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14388,
+      "prompt_tokens": 9081,
+      "assistant_tokens": 5307,
+      "max_output_tokens": 7146
+    },
+    {
+      "episode_id": "m0v1-C-g-b63eea454377a75a-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14462,
+      "prompt_tokens": 9121,
+      "assistant_tokens": 5341,
+      "max_output_tokens": 7189
+    },
+    {
+      "episode_id": "m0v1-C-g-b63eea454377a75a-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14473,
+      "prompt_tokens": 9142,
+      "assistant_tokens": 5331,
+      "max_output_tokens": 7176
+    },
+    {
+      "episode_id": "m0v1-C-g-b63eea454377a75a-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4815,
+      "prompt_tokens": 4791,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-b63eea454377a75a-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4826,
+      "prompt_tokens": 4803,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-b63eea454377a75a-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14471,
+      "prompt_tokens": 9159,
+      "assistant_tokens": 5312,
+      "max_output_tokens": 7152
+    },
+    {
+      "episode_id": "m0v1-C-g-c34bd0fa53217ff2-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3914,
+      "prompt_tokens": 3893,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-c34bd0fa53217ff2-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14380,
+      "prompt_tokens": 9103,
+      "assistant_tokens": 5277,
+      "max_output_tokens": 7109
+    },
+    {
+      "episode_id": "m0v1-C-g-c34bd0fa53217ff2-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14358,
+      "prompt_tokens": 9093,
+      "assistant_tokens": 5265,
+      "max_output_tokens": 7094
+    },
+    {
+      "episode_id": "m0v1-C-g-c34bd0fa53217ff2-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14368,
+      "prompt_tokens": 9068,
+      "assistant_tokens": 5300,
+      "max_output_tokens": 7137
+    },
+    {
+      "episode_id": "m0v1-C-g-c34bd0fa53217ff2-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4822,
+      "prompt_tokens": 4798,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-c34bd0fa53217ff2-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4832,
+      "prompt_tokens": 4809,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-c34bd0fa53217ff2-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14449,
+      "prompt_tokens": 9183,
+      "assistant_tokens": 5266,
+      "max_output_tokens": 7095
+    },
+    {
+      "episode_id": "m0v1-C-g-df9d11a1f129aa58-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3864,
+      "prompt_tokens": 3843,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-df9d11a1f129aa58-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14334,
+      "prompt_tokens": 9057,
+      "assistant_tokens": 5277,
+      "max_output_tokens": 7109
+    },
+    {
+      "episode_id": "m0v1-C-g-df9d11a1f129aa58-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14398,
+      "prompt_tokens": 9111,
+      "assistant_tokens": 5287,
+      "max_output_tokens": 7121
+    },
+    {
+      "episode_id": "m0v1-C-g-df9d11a1f129aa58-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14382,
+      "prompt_tokens": 9101,
+      "assistant_tokens": 5281,
+      "max_output_tokens": 7114
+    },
+    {
+      "episode_id": "m0v1-C-g-df9d11a1f129aa58-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4857,
+      "prompt_tokens": 4833,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-df9d11a1f129aa58-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4848,
+      "prompt_tokens": 4825,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-df9d11a1f129aa58-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14429,
+      "prompt_tokens": 9150,
+      "assistant_tokens": 5279,
+      "max_output_tokens": 7111
+    },
+    {
+      "episode_id": "m0v1-C-g-f68cf0e1f9f443f1-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3823,
+      "prompt_tokens": 3802,
+      "assistant_tokens": 21,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-f68cf0e1f9f443f1-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14390,
+      "prompt_tokens": 9072,
+      "assistant_tokens": 5318,
+      "max_output_tokens": 7160
+    },
+    {
+      "episode_id": "m0v1-C-g-f68cf0e1f9f443f1-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14453,
+      "prompt_tokens": 9128,
+      "assistant_tokens": 5325,
+      "max_output_tokens": 7169
+    },
+    {
+      "episode_id": "m0v1-C-g-f68cf0e1f9f443f1-000096-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14448,
+      "prompt_tokens": 9126,
+      "assistant_tokens": 5322,
+      "max_output_tokens": 7165
+    },
+    {
+      "episode_id": "m0v1-C-g-f68cf0e1f9f443f1-000128-decide-control",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4807,
+      "prompt_tokens": 4783,
+      "assistant_tokens": 24,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-f68cf0e1f9f443f1-000128-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 4819,
+      "prompt_tokens": 4796,
+      "assistant_tokens": 23,
+      "max_output_tokens": 512
+    },
+    {
+      "episode_id": "m0v1-C-g-f68cf0e1f9f443f1-000128-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14471,
+      "prompt_tokens": 9158,
+      "assistant_tokens": 5313,
+      "max_output_tokens": 7154
+    },
+    {
+      "episode_id": "m0v1-C-g-f68cf0e1f9f443f1-000160-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14481,
+      "prompt_tokens": 9148,
+      "assistant_tokens": 5333,
+      "max_output_tokens": 7179
+    }
+  ],
+  "entry_acceptance_sha256": "04daf0d113ed0e37bd32f2f46a22964cc61c31abf51e4fbbba52ce57c252cac9",
+  "execution_files": {
+    "scripts/evaluate_model0_baseline.py": "df82d454b77814aa3f96e07408c380d878c7791785018c28680570cd6b2d549d",
+    "scripts/model0_response.py": "03eaf3e5e965502d9952e1e9e70d8e693707a8dbbe7cd53e9125ade8ce3f1c78",
+    "scripts/model0_evaluation.py": "294d76832855acf8748df4423328cae82eb89622049305a4e316a0327fcfc31c"
+  }
+}

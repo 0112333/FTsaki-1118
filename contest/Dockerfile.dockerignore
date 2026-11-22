@@ -1,0 +1,14 @@
+**
+!contest/
+!contest/contest_submission.py
+!contest/baselines.sha256
+!docs/
+!docs/contest-harness-sdk-1.0.2/
+!docs/contest-harness-sdk-1.0.2/pyproject.toml
+!docs/contest-harness-sdk-1.0.2/README.md
+!docs/contest-harness-sdk-1.0.2/contest_harness/
+!docs/contest-harness-sdk-1.0.2/contest_harness/*.py
+!docs/contest-harness-sdk-1.0.2/template/
+!docs/contest-harness-sdk-1.0.2/template/harness.py
+!wheels/
+!wheels/*.whl

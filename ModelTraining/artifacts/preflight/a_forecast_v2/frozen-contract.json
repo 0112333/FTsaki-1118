@@ -1,0 +1,16 @@
+{
+  "message_version": "model0.messages.v3",
+  "input_version": "model0.evidence.a_forecast.v1",
+  "input_code_sha256": "e699e276a7afdbf27ba6210351f49ed50b964d17d0df8d6b41eac2c320e385db",
+  "harness_integrated": false,
+  "manifest_sha256": "bcc2422e603da02a1704e70e2960d1de5d67ab74d8d3a140c462353f3b5f7ead",
+  "files": {
+    "scripts/model0_input.py": "e699e276a7afdbf27ba6210351f49ed50b964d17d0df8d6b41eac2c320e385db",
+    "scripts/model0_runtime.py": "19042d2a594f34bc621c3329c55825b4ec1c8788915d5a6cf1c40035361a7a40",
+    "scripts/model0_messages.py": "9583f71b86f19f9ad92c601d20d9e287d8e2927674172f764c26a448a8f71fed",
+    "configs/model0_messages.v1.json": "ca1b0d3845fc528b58faf56f15578e8889548874a48e270eec90862d673d32de",
+    "artifacts/preflight/tokenizer/chat_template.jinja": "af16f654968d47d09a6c604e00370b12dbc21f76456f59c9e98b82e84d9f6375",
+    "artifacts/preflight/tokenizer/tokenizer.json": "a5cd9732badce41de57e6efce8302930ded1c1188c5f81feb2bd6c24c4a1941f",
+    "artifacts/preflight/tokenizer/tokenizer_config.json": "27c9bb9dbc425fafea54d21a57aab11d0ad3cd1a206757147d73852ab3f99734"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "state": "prepared_not_executed",
+  "stage": "complete_output_probe",
+  "model": "Qwen/Qwen3.8-27B",
+  "workspace": "workspace_1o9brly7x8y1",
+  "contract_sha256": "1ccc21034579371b124bbec39b30d04cfae7bd3af8ae11391d624d4b5d166abd",
+  "max_calls": 11,
+  "max_billable_text_tokens": 720896,
+  "max_steps": 0,
+  "deadline_seconds": 7200,
+  "max_attempts_per_case": 1,
+  "stop_on_first_incomplete_or_error": true,
+  "temperature": 0,
+  "seed": 42,
+  "estimated_currency_cost": null,
+  "pricing_verified": false,
+  "balance_verified": false,
+  "budget_source": "Existing user-authorized workspace quota; stop and contact user on exhaustion",
+  "cases": [
+    {
+      "episode_id": "m0v1-A-g-7d154cc4b36676d9-000032-forecast_next-natural",
+      "split": "train",
+      "scenario": "A",
+      "task": "forecast_next",
+      "sequence_tokens": 60781,
+      "prompt_tokens": 21980,
+      "assistant_tokens": 38801,
+      "max_output_tokens": 43556,
+      "independent_dev_metric": false
+    },
+    {
+      "episode_id": "m0v1-A-g-a4a23c69bbb33453-000016-decide-natural",
+      "split": "dev",
+      "scenario": "A",
+      "task": "decide",
+      "sequence_tokens": 18181,
+      "prompt_tokens": 18160,
+      "assistant_tokens": 21,
+      "max_output_tokens": 47376,
+      "independent_dev_metric": true
+    },
+    {
+      "episode_id": "m0v1-A-g-a4a23c69bbb33453-000026-decide-natural",
+      "split": "dev",
+      "scenario": "A",
+      "task": "decide",
+      "sequence_tokens": 18521,
+      "prompt_tokens": 18500,
+      "assistant_tokens": 21,
+      "max_output_tokens": 47036,
+      "independent_dev_metric": true
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000008-decide-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "decide",
+      "sequence_tokens": 5556,
+      "prompt_tokens": 5535,
+      "assistant_tokens": 21,
+      "max_output_tokens": 60001,
+      "independent_dev_metric": true
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000064-decide-shift",
+      "split": "dev",
+      "scenario": "B",
+      "task": "decide",
+      "sequence_tokens": 8553,
+      "prompt_tokens": 8530,
+      "assistant_tokens": 23,
+      "max_output_tokens": 57006,
+      "independent_dev_metric": true
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000008-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 31227,
+      "prompt_tokens": 10630,
+      "assistant_tokens": 20597,
+      "max_output_tokens": 54906,
+      "independent_dev_metric": true
+    },
+    {
+      "episode_id": "m0v1-B-g-adbb2d0d00cdb5c1-000064-forecast_next-natural",
+      "split": "dev",
+      "scenario": "B",
+      "task": "forecast_next",
+      "sequence_tokens": 47507,
+      "prompt_tokens": 27270,
+      "assistant_tokens": 20237,
+      "max_output_tokens": 38266,
+      "independent_dev_metric": true
+    },
+    {
+      "episode_id": "m0v1-C-g-64cbe5e8e3331508-000032-decide-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 3820,
+      "prompt_tokens": 3799,
+      "assistant_tokens": 21,
+      "max_output_tokens": 61737,
+      "independent_dev_metric": true
+    },
+    {
+      "episode_id": "m0v1-C-g-988bef2923292bbf-000256-decide-shift",
+      "split": "dev",
+      "scenario": "C",
+      "task": "decide",
+      "sequence_tokens": 5899,
+      "prompt_tokens": 5876,
+      "assistant_tokens": 23,
+      "max_output_tokens": 59660,
+      "independent_dev_metric": true
+    },
+    {
+      "episode_id": "m0v1-C-g-845deda4478d06bb-000032-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 14308,
+      "prompt_tokens": 9034,
+      "assistant_tokens": 5274,
+      "max_output_tokens": 56502,
+      "independent_dev_metric": true
+    },
+    {
+      "episode_id": "m0v1-C-g-20dc40ab539beabb-000448-forecast_next-natural",
+      "split": "dev",
+      "scenario": "C",
+      "task": "forecast_next",
+      "sequence_tokens": 15537,
+      "prompt_tokens": 10180,
+      "assistant_tokens": 5357,
+      "max_output_tokens": 55356,
+      "independent_dev_metric": true
+    }
+  ],
+  "execution_files": {
+    "scripts/probe_model0_capacity.py": "6cd6764d9ed1c1b23a95b29e899d32f271ec7f434462dd6943eeefdfbbc41b90",
+    "scripts/model0_evaluation.py": "294d76832855acf8748df4423328cae82eb89622049305a4e316a0327fcfc31c"
+  },
+  "supersedes_failed_probe": "sample_o4fzp672mn50"
+}
